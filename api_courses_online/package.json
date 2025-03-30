@@ -1,0 +1,30 @@
+{
+  "name": "courses-lsm",
+  "version": "1.0.0",
+  "description": "COURSES UDEMY STACK MEAN",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "sebastian",
+  "license": "ISC",
+  "dependencies": {
+    "@vimeo/vimeo": "^3.0.3",
+    "bcryptjs": "^3.0.2",
+    "body-parse": "^0.1.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-promise-router": "^4.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.0",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.9"
+  }
+}
